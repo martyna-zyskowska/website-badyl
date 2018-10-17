@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+
+    <head>
+        <html lang="pl-PL">
+        <meta charset="utf-8">
+        <title>Hurtownia Badyl</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <!-- <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Semi+Expanded" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=IM+Fell+English+SC" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Chango" rel="stylesheet">    
+        <link href="https://fonts.googleapis.com/css?family=Catamaran:900|Coda:800" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script> -->
+        <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script type="text/javascript" src="jquery.onepage-scroll.js"></script>
+        <link type="text/css" href="onepage-scroll.css" rel="stylesheet">
+        <link type="text/css" href="badyl.css" rel="stylesheet">
+
+        <script>
+            $(document).ready(function(){
+                $(".main").onepage_scroll({
+                    sectionContainer: "section",
+                    easing: "ease-in-out",
+                    animationTime: 400,
+                    pagination: true,
+                    loop: true,
+                    responsiveFallback: 600,
+                    direction: "horizontal"
+                });
+            });
+    
+        </script>
+    </head>
+
+    <body>
+
+        <div class="main">
+
+            <section id="page1">
+                <div id="wsio">
+                    <div id="tytul">BADYL</div>
+                    <div id="bla"><div id="blok">To jest przykładowy tekst<span></span></div></div>
+                </div>
+            </section>
+
+            <section id="page2">
+                <h1><font>This is second page</font></h1>
+            </section>
+
+            <section id="page3">
+                <h1><font>This is third page</font></h1>
+            </section>
+
+            <section id="page4">
+                <h1><font>This is fourth page</font></h1>
+            </section>
+
+            <section id="page5">
+                <h1><font>This is fifth page</font></h1>
+            </section>
+
+        </div>
+    </body>
+</html>
