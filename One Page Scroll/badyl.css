@@ -11,98 +11,53 @@ section {
     display: table;
 }
 
-                /* #tytul {
-                    display: table-cell;
-                    vertical-align: middle;
-                    text-align: center;
-                    margin-left: auto;
-                    margin-right: auto;
-                } */
-
-                h3 {
-                    text-align: center;
-                    margin-left: auto;
-                    margin-right: auto;
-                }
-
-                .main section#page2 {
-                    background: white;
-                }
-
-                .main section#page3 {
-                    background: yellow;
-                }
-
-                .main section#page4 {
-                    background: black;
-                }
-
-                .main section#page5 {
-                    background: green;
-                }
-
-                h1 {
-                    font-size: 40px;
-                    color: #efefef;
-                    text-align: center;
-                    padding-top: 45vh;
-                }
-
-                font {
-                    border: 2px solid #efefef;
-                }
-
-
-/*         
-#blok {
-
-    font-size:1.8em;
-    font-family:"Courier New", monospace;
-    background-color:white;
-  }
-  
-  #blok > span {
-    position:absolute;
-    top:0;
-    right:0;
-    height:10%;
-    background-color:blue;
-    animation:pisz 1.4s linear;
-  }
-
-  @keyframes pisz
-{
-  0% { width:100%; }
-  100% { width:0; }
+h3 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
- */
 
+.main section#page2 {
+    background: white;
+}
 
+.main section#page3 {
+    background: yellow;
+}
 
+.main section#page4 {
+    background: black;
+}
 
+.main section#page5 {
+    background: green;
+}
 
+h1 {
+    font-size: 40px;
+    color: #efefef;
+    text-align: center;
+    padding-top: 45vh;
+}
 
-
-
-
-
+font {
+    border: 2px solid #efefef;
+}
 
 #blok {
     position:relative;
-    /* float: left; */
     font-size:20px;
     font-family:"Courier New", monospace;
     background-color:white;
-    /* display: table-cell; */
     vertical-align: middle;
     text-align: center;
-          background-color: aqua;
-          margin-left: auto;
-          margin-right: auto;
-          text-align: center;
-  }
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
-  #blok > span {
+#blok > span {
     position:absolute;
     top:0;
     right:0;
@@ -114,11 +69,11 @@ section {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-  }
+}
 
-  #blok > p:hover {
+#blok > p:hover {
     animation-play-state:paused;
-  }
+}
   
   /* ------------ANIMACJE------------ */
   @keyframes pisz
@@ -148,18 +103,16 @@ section {
     100% { border-left-color:transparent; }
   }
 
-  #wsio {
-      display: table-cell;
-      vertical-align: middle;
-      text-align: center;
-      /* background-color: aqua; */
-  }
+#wsio {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
 
-
-  #bla {
+#bla {
     background-color: rosybrown;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-  }
+}
