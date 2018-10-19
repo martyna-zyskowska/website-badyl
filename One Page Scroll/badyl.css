@@ -7,7 +7,7 @@ section {
 }
 
 .main section#page1 {
-    /* background: grey; */
+    background: lightgrey;
     display: table;
 
     background-image: url("img/vegies.png");
@@ -37,7 +37,7 @@ section {
         background-color:white;
         vertical-align: middle;
         text-align: center;
-        background-color: grey;
+        background-color: lightgrey;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -48,7 +48,7 @@ section {
         top:0;
         right:0;
         height:100%;
-        background-color:grey;
+        background-color:lightgrey;
         border-left:1px solid transparent;
         animation:pisz 4s steps(25,start);
         -webkit-animation:pisz 4s steps(25,start); /* dla Google Chrome, Safari, Opera 15+ */
